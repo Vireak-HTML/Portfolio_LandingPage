@@ -98,6 +98,10 @@ textarea {
   color: var(--accent-dark);
 }
 
+.skill-detail {
+  text-align: justify;
+}
+
 .section-title {
   margin-bottom: 2rem;
   color: var(--ink);
