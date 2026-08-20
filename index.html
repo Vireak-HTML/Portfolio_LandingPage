@@ -88,7 +88,7 @@
       <!-- Hero Section -->
       <header class="hero-section d-grid pt-5" id="home">
         <div class="container py-5">
-          <div class="hero-word" aria-hidden="true">DEVELOPER</div>
+          <div class="hero-word d-none d-md-block" aria-hidden="true">DEVELOPER</div>
           <div class="row align-items-center g-5 py-lg-5">
             <div class="col-12 col-md-6 text-center">
               <div
@@ -138,7 +138,7 @@
       <section class="education-section py-5" id="education">
         <div class="container py-lg-4">
           <h2 class="section-title">Education</h2>
-          <table class="table table-borderless align-middle mb-0">
+          <table class="table align-middle mb-0">
             <thead>
               <tr>
                 <td>
@@ -149,9 +149,23 @@
               </tr>
               <tr>
                 <td>
-                  <strong>Web Development short course</strong><br />
-                  ETEC Center<br />
-                  2024 - 2025
+                  <strong>Fullstack Web Development short course</strong><br />
+                  SmallLab<br />
+                  Aug 2026 - Present
+                </td>
+              </tr>
+              <td>
+                  <strong>Basic Networking and IT Support short course</strong><br />
+                  Engineering of Technology and Electronic Center<br />
+                  Jul 2026 - Present
+                </td>
+              </tr>
+              <tr>
+              <tr>
+                <td>
+                  <strong>Web Front-end Development short course</strong><br />
+                  Engineering of Technology and Electronic Center<br />
+                  Nov 2024 - May 2025
                 </td>
               </tr>
               <tr>
@@ -167,21 +181,42 @@
       </section>
       <!-- Experiences -->
       <section class="experience-section py-5" id="experiences">
-        <div class="container py-lg-4">
+        <div class="container py-lg-4 ">
           <h2 class="section-title">Experiences</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <strong>Graphic Designer</strong> at Norway School
-              <br />
-              Created logos, social media graphics, and marketing materials
-              using Adobe Photoshop and Illustrator.
-            </li>
-            <li class="list-group-item">
-              <strong>English Teacher</strong> at Norway School
-              <br />
-              Designed and delivered engaging English lessons to students of all
-              levels.
-            </li>
+          <ul class="list-group list-group-flush gap-3">
+            <div class="list-group-div">
+              <li class="list-group-item">
+                <strong>Service Crew</strong> <b>KOI Thé Cambodia</b>
+                <p>May 2025 - Jul 2026</p>
+                <ul>
+                  <li>Processed daily POS transactions efficiently with high accuracy and precision.</li>
+                  <li>Prepared handcrafted beverages strictly adhering to recipe standards and food safety regulations.</li>
+                  <li>Resolved customer complaints promptly, ensuring high guest satisfaction and repeat visits.</li>
+                </ul>
+              </li>
+            </div>
+            <div class="list-group-div">
+              <li class="list-group-item">
+                <strong>Graphic Designer</strong> <b>Norway School</b>
+                <p>Feb 2024 - Feb 2025</p>
+                <ul>
+                  <li>Designed engaging posters, flyers, and social media graphics to promote school events, boosting student turnout.</li>
+                  <li>Collaborated with teachers and student committees to transform event concepts into eye-catching promotional visuals.</li>
+                  <li>Formatted and prepped high-resolution files for both on-campus printing and digital newsletter distribution.</li>
+                </ul>
+              </li>
+            </div>
+            <div class="list-group-div">
+              <li class="list-group-item">
+                <strong>English Teacher</strong> <b>Norway School</b>
+                <p>Feb 2024 - Feb 2025</p>
+                <ul>
+                  <li>Delivered interactive English lessons to students, boosting reading comprehension and writing skills.</li>
+                  <li>Evaluated student assignments with structured rubrics, providing targeted feedback to drive academic growth.</li>
+                  <li>Communicated regularly with parents and staff to track progress and foster a supportive learning environment.</li>
+                </ul>
+              </li>
+            </div>
           </ul>
         </div>
       </section>
@@ -190,16 +225,16 @@
         <div class="container py-lg-4">
           <h2 class="section-title">Skills</h2>
           <div class="row g-3 skill-container">
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="
                   window.open('https://www.w3schools.com/html/', '_blank')
                 "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/html.png"
@@ -208,8 +243,9 @@
                       alt="HTML"
                     />
                   </div>
-                  <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
+                  <div class="col-md-10 col-12 d-flex justify-content-center align-items-center">
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>HTML</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
                       <strong>HTML</strong>
                       <i>(HyperText Markup Language)</i> is the standard markup
                       language used to structure content on websites. It defines
@@ -225,16 +261,16 @@
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="
                   window.open('https://www.w3schools.com/css/', '_blank')
                 "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/css.png"
@@ -244,7 +280,8 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>CSS</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
                       <strong>CSS</strong> <i>(Cascading Style Sheets)</i> is a
                       stylesheet language used to control the visual appearance
                       and layout of web pages. It allows developers to change
@@ -261,14 +298,14 @@
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="window.open('https://www.w3schools.com/js/', '_blank')"
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/js.png"
@@ -278,7 +315,8 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>JS</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
                       <strong>JavaScript</strong> is a high-level programming
                       language primarily used to add behavior and interactivity
                       to websites. It can respond to user actions, validate
@@ -295,26 +333,27 @@
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="
                   window.open('https://www.w3schools.com/bootstrap/', '_blank')
                 "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/bootstrap.png"
-                      style="width: 140px; height: 140px"
+                      style="width: 100px; height: 100px"
                       class="skill-img"
                       alt="Bootstrap"
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
+                    <p class="d-block d-md-none fs-6 fw-bold mt-2";>Bootstrap</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
                       <strong>Bootstrap</strong> is a popular frontend CSS
                       framework used to build responsive and mobile-friendly
                       websites more quickly. It provides pre-designed components
@@ -332,24 +371,25 @@
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="window.open('https://www.w3schools.com/c/', '_blank')"
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/c.png"
-                      style="width: 140px; height: 140px"
+                      style="width: 100px; height: 100px"
                       class="skill-img"
                       alt="C"
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>C</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
                       <strong>C</strong> is a general-purpose, procedural
                       programming language widely used for system-level and
                       performance-critical software. It provides low-level
@@ -367,14 +407,16 @@
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
-                onclick="window.open('https://www.w3schools.com/cpp/', '_blank')"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
+                onclick="
+                  window.open('https://www.w3schools.com/cpp/', '_blank')
+                "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/cpp.png"
@@ -384,21 +426,34 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>C++</strong> is a general-purpose programming language that extends many of the capabilities of C while supporting multiple programming paradigms, particularly object-oriented programming. It is commonly used for game development, desktop applications, high-performance software, embedded systems, graphics applications, and system software. C++ provides powerful features such as classes, inheritance, polymorphism, templates, the Standard Template Library (STL), and manual memory management. Its major benefits are high performance, extensive control over system resources, and the ability to build complex and computationally demanding applications.
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>C++</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>C++</strong> is a general-purpose programming
+                      language that extends many of the capabilities of C while
+                      supporting multiple programming paradigms, particularly
+                      object-oriented programming. It is commonly used for game
+                      development, desktop applications, high-performance
+                      software, embedded systems, graphics applications, and
+                      system software. C++ provides powerful features such as
+                      classes, inheritance, polymorphism, templates, the
+                      Standard Template Library (STL), and manual memory
+                      management. Its major benefits are high performance,
+                      extensive control over system resources, and the ability
+                      to build complex and computationally demanding
+                      applications.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="window.open('https://www.w3schools.com/cs/', '_blank')"
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/csharp.png"
@@ -408,21 +463,35 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>C#</strong> <i>(C-Sharp)</i> is a modern, object-oriented programming language developed by Microsoft and primarily associated with the .NET platform. It is used to develop desktop applications, web applications, APIs, cloud services, enterprise software, and games, particularly through the Unity game engine. C# provides features such as classes, interfaces, inheritance, exception handling, generics, LINQ, and automatic memory management through garbage collection. Its benefits include strong type safety, a comprehensive standard library, excellent development tools, and integration with the large .NET ecosystem.
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>C#</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>C#</strong> <i>(C-Sharp)</i> is a modern,
+                      object-oriented programming language developed by
+                      Microsoft and primarily associated with the .NET platform.
+                      It is used to develop desktop applications, web
+                      applications, APIs, cloud services, enterprise software,
+                      and games, particularly through the Unity game engine. C#
+                      provides features such as classes, interfaces,
+                      inheritance, exception handling, generics, LINQ, and
+                      automatic memory management through garbage collection.
+                      Its benefits include strong type safety, a comprehensive
+                      standard library, excellent development tools, and
+                      integration with the large .NET ecosystem.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
-                onclick="window.open('https://www.w3schools.com/java/', '_blank')"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
+                onclick="
+                  window.open('https://www.w3schools.com/java/', '_blank')
+                "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/java.png"
@@ -432,21 +501,36 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>Java</strong> is a general-purpose, object-oriented programming language designed around the principle of <u>"write once, run anywhere."</u> Java programs are compiled into bytecode that runs on the Java Virtual Machine (JVM), allowing the same application to operate across different operating systems. Java is widely used for enterprise applications, backend systems, Android development, desktop applications, and large-scale software systems. Its benefits include platform independence, strong object-oriented features, automatic memory management, security features, extensive libraries, and a mature ecosystem suitable for large and long-term projects.
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>Java</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>Java</strong> is a general-purpose,
+                      object-oriented programming language designed around the
+                      principle of <u>"write once, run anywhere."</u> Java
+                      programs are compiled into bytecode that runs on the Java
+                      Virtual Machine (JVM), allowing the same application to
+                      operate across different operating systems. Java is widely
+                      used for enterprise applications, backend systems, Android
+                      development, desktop applications, and large-scale
+                      software systems. Its benefits include platform
+                      independence, strong object-oriented features, automatic
+                      memory management, security features, extensive libraries,
+                      and a mature ecosystem suitable for large and long-term
+                      projects.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
-                onclick="window.open('https://dart.dev/learn/tutorial?', '_blank')"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
+                onclick="
+                  window.open('https://dart.dev/learn/tutorial?', '_blank')
+                "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="https://dart.dev/assets/img/logo/dart-192.svg"
@@ -456,21 +540,35 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>Dart</strong> is a modern, object-oriented programming language developed by Google and designed for building fast, scalable applications. It is the primary programming language used by Flutter and supports features such as classes, inheritance, interfaces, asynchronous programming, null safety, and strong typing. Dart can be used for application logic, web development, command-line programs, and cross-platform application development. Its main benefits include a relatively simple and readable syntax, strong support for object-oriented programming, sound null safety, good performance, and seamless integration with the Flutter framework.
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>Dart</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>Dart</strong> is a modern, object-oriented
+                      programming language developed by Google and designed for
+                      building fast, scalable applications. It is the primary
+                      programming language used by Flutter and supports features
+                      such as classes, inheritance, interfaces, asynchronous
+                      programming, null safety, and strong typing. Dart can be
+                      used for application logic, web development, command-line
+                      programs, and cross-platform application development. Its
+                      main benefits include a relatively simple and readable
+                      syntax, strong support for object-oriented programming,
+                      sound null safety, good performance, and seamless
+                      integration with the Flutter framework.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
-                onclick="window.open('https://www.w3schools.com/php/', '_blank')"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
+                onclick="
+                  window.open('https://www.w3schools.com/php/', '_blank')
+                "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/php.png"
@@ -480,21 +578,35 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>PHP</strong> <i>(Hypertext Preprocessor)</i> is a server-side scripting language primarily used for developing dynamic websites and web applications. It runs on a web server and can generate HTML content, process forms, manage sessions, communicate with databases, and build APIs. PHP is widely used with databases such as MySQL and is commonly used with frameworks such as Laravel and Symfony. Its main benefits include its relatively simple learning curve, extensive ecosystem, strong database support, broad hosting availability, and suitability for developing backend systems and content-driven websites.
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>PHP</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>PHP</strong> <i>(Hypertext Preprocessor)</i> is a
+                      server-side scripting language primarily used for
+                      developing dynamic websites and web applications. It runs
+                      on a web server and can generate HTML content, process
+                      forms, manage sessions, communicate with databases, and
+                      build APIs. PHP is widely used with databases such as
+                      MySQL and is commonly used with frameworks such as Laravel
+                      and Symfony. Its main benefits include its relatively
+                      simple learning curve, extensive ecosystem, strong
+                      database support, broad hosting availability, and
+                      suitability for developing backend systems and
+                      content-driven websites.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
-                onclick="window.open('https://www.w3schools.com/git/', '_blank')"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
+                onclick="
+                  window.open('https://www.w3schools.com/git/', '_blank')
+                "
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/git.png"
@@ -504,21 +616,33 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>Git</strong> is a distributed version control system used to track changes in source code and manage software development projects. It allows developers to create commits, create and merge branches, compare changes, revert mistakes, and maintain different versions of a project. Git is commonly used with platforms such as GitHub, GitLab, and Bitbucket to collaborate with other developers and store repositories remotely. Its main benefits include reliable version tracking, easier collaboration, the ability to work on multiple features independently through branches, and the ability to recover previous versions of a project when problems occur.
+                    <p class="d-block d-md-none fs-1 fw-bold mt-2";>Git</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>Git</strong> is a distributed version control
+                      system used to track changes in source code and manage
+                      software development projects. It allows developers to
+                      create commits, create and merge branches, compare
+                      changes, revert mistakes, and maintain different versions
+                      of a project. Git is commonly used with platforms such as
+                      GitHub, GitLab, and Bitbucket to collaborate with other
+                      developers and store repositories remotely. Its main
+                      benefits include reliable version tracking, easier
+                      collaboration, the ability to work on multiple features
+                      independently through branches, and the ability to recover
+                      previous versions of a project when problems occur.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="window.open('', '_blank')"
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/photoshop.png"
@@ -527,46 +651,68 @@
                       alt="Photoshop"
                     />
                   </div>
-                  <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>Adobe Photoshop</strong> is a professional image-editing and raster-graphics application used to create, modify, and enhance digital images. It provides tools for photo retouching, image manipulation, compositing, color correction, typography, digital artwork, and graphic design. Photoshop is widely used by photographers, graphic designers, marketers, UI designers, and digital artists. Its major benefits include powerful layer-based editing, extensive image manipulation tools, filters, masks, adjustment features, and support for professional workflows.
+                  <div class="col-md-10 col-12 p-0 p-md-2">
+                    <p class="d-block d-md-none fs-6 fw-bold mx-0 mt-2">Photoshop</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>Adobe Photoshop</strong> is a professional
+                      image-editing and raster-graphics application used to
+                      create, modify, and enhance digital images. It provides
+                      tools for photo retouching, image manipulation,
+                      compositing, color correction, typography, digital
+                      artwork, and graphic design. Photoshop is widely used by
+                      photographers, graphic designers, marketers, UI designers,
+                      and digital artists. Its major benefits include powerful
+                      layer-based editing, extensive image manipulation tools,
+                      filters, masks, adjustment features, and support for
+                      professional workflows.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="window.open('', '_blank')"
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/illustrator.png"
-                      style="width: 140px; height: 140px"
+                      style="width: 100px; height: 100px"
                       class="skill-img"
                       alt="Illustrator"
                     />
                   </div>
-                  <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>Adobe Illutstrator</strong> is a vector-graphics design application used to create artwork that can be scaled to different sizes without losing quality. It is commonly used for creating logos, icons, illustrations, posters, typography, diagrams, packaging designs, and other graphics. Unlike raster-based applications such as Photoshop, Illustrator uses mathematical paths and shapes to represent graphics. Its main benefit is the ability to create clean, precise, and highly scalable artwork, making it particularly suitable for logos, branding, printing, and professional graphic design.
+                  <div class="col-md-10 col-12 p-0 p-md-3">
+                    <p class="d-block d-md-none fs-6 fw-bold mx-0 mt-2">Illustrator</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>Adobe Illutstrator</strong> is a vector-graphics
+                      design application used to create artwork that can be
+                      scaled to different sizes without losing quality. It is
+                      commonly used for creating logos, icons, illustrations,
+                      posters, typography, diagrams, packaging designs, and
+                      other graphics. Unlike raster-based applications such as
+                      Photoshop, Illustrator uses mathematical paths and shapes
+                      to represent graphics. Its main benefit is the ability to
+                      create clean, precise, and highly scalable artwork, making
+                      it particularly suitable for logos, branding, printing,
+                      and professional graphic design.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="window.open('', '_blank')"
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/premiere.svg"
@@ -576,21 +722,34 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>Adobe Premiere Pro</strong> is a professional non-linear video editing application used to create and edit video content. It provides tools for cutting and arranging video clips, editing audio, adding transitions, applying effects, creating titles and captions, performing color adjustments, and exporting videos in different formats. It is widely used for films, YouTube videos, advertisements, educational content, and professional media production. Its benefits include a comprehensive editing workflow, support for many video formats, precise timeline editing, integration with other Adobe applications, and tools suitable for both basic and professional video production.
+                    <p class="d-block d-md-none fs-6 fw-bold mx-0 mt-2">Premier Pro</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>Adobe Premiere Pro</strong> is a professional
+                      non-linear video editing application used to create and
+                      edit video content. It provides tools for cutting and
+                      arranging video clips, editing audio, adding transitions,
+                      applying effects, creating titles and captions, performing
+                      color adjustments, and exporting videos in different
+                      formats. It is widely used for films, YouTube videos,
+                      advertisements, educational content, and professional
+                      media production. Its benefits include a comprehensive
+                      editing workflow, support for many video formats, precise
+                      timeline editing, integration with other Adobe
+                      applications, and tools suitable for both basic and
+                      professional video production.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            <div class="col-12">
+            <div class="col-md-12 col-4">
               <button
-                class="card h-100 p-2 border-0 shadow-sm"
+                class="card h-100 w-100 p-2 border-0 shadow-sm"
                 onclick="window.open('', '_blank')"
               >
                 <div class="card-body row">
                   <div
-                    class="col-md-2 col-12 d-flex align-items-center justify-content-center pe-3"
+                    class="col-12 col-md-2 d-flex align-items-center justify-content-center pe-3"
                   >
                     <img
                       src="./IMG/capcut.png"
@@ -600,14 +759,25 @@
                     />
                   </div>
                   <div class="col-md-10 col-12">
-                    <p class="mb-0 skill-detail accordion-body mt-1">
-                      <strong>Capcut</strong> is a video-editing application designed for creating and editing videos efficiently, particularly for social media and short-form content. It provides features such as trimming, transitions, text overlays, filters, effects, music, subtitles, templates, and various AI-assisted editing functions. It is commonly used to create content for platforms such as TikTok, YouTube, Instagram, and other social-media services. Its main benefits are its relatively simple interface, large collection of ready-made effects and templates, fast editing workflow, and accessibility for users ranging from beginners to more experienced content creators.
+                    <p class="d-block d-md-none fs-6 fw-bold mx-0 mt-2">Capcut</p>
+                    <p class="mb-0 skill-detail d-none d-md-block accordion-body mt-1">
+                      <strong>Capcut</strong> is a video-editing application
+                      designed for creating and editing videos efficiently,
+                      particularly for social media and short-form content. It
+                      provides features such as trimming, transitions, text
+                      overlays, filters, effects, music, subtitles, templates,
+                      and various AI-assisted editing functions. It is commonly
+                      used to create content for platforms such as TikTok,
+                      YouTube, Instagram, and other social-media services. Its
+                      main benefits are its relatively simple interface, large
+                      collection of ready-made effects and templates, fast
+                      editing workflow, and accessibility for users ranging from
+                      beginners to more experienced content creators.
                     </p>
                   </div>
                 </div>
               </button>
             </div>
-            
           </div>
           <!-- Projects -->
           <div class="project-section" id="projects">

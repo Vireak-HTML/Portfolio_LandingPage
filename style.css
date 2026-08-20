@@ -877,19 +877,16 @@ body {
 
 .table {
   color: #fff;
-  font-size: 0.9rem;
-}
-
-.table tr {
-  border-bottom-color: rgba(255, 255, 255, 0.22);
+  font-size: 1rem;
 }
 
 .table td {
+  border: solid var(--blue) 10px;
   padding: 1.3rem 0;
 }
 
 .table strong {
-  color: var(--lime);
+  color: var(--blue-dark);
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -897,15 +894,24 @@ body {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
 }
-
+.experience-section .list-group-div {
+  background-color: var(--blue) ;
+  display: flex;
+  justify-content: end;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
 .experience-section .list-group-item {
+  width: 99.5%;
   display: grid;
-  grid-template-columns: minmax(150px, 0.65fr) 1.35fr;
+  grid-template-columns: minmax(150px, 0.65fr) 2.5fr;
   gap: 1.5rem;
-  padding: 1.25rem 0;
+  padding: 1.25rem 1rem;
   border-color: #cbd6e8;
+  border-radius: 10px !important;
   color: #25304a;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .experience-section strong {
