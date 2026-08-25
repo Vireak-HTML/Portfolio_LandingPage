@@ -100,6 +100,7 @@ textarea {
 
 .skill-detail {
   text-align: justify;
+  color: var(--blue);
 }
 
 .section-title {
@@ -166,7 +167,7 @@ hr {
 }
 
 .skill-container .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
   box-shadow: 0 0.75rem 1.5rem rgba(23, 33, 43, 0.12) !important;
 }
 
@@ -874,6 +875,11 @@ body {
 .skill-section .section-title {
   color: #fff;
 }
+.skill-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
 
 .table {
   color: #fff;
@@ -921,7 +927,7 @@ body {
 
 .skill-container .card {
   border-radius: 8px !important;
-  background: #eef3fa;
+  background: #f0f1f3;
 }
 
 .skill-container .card-title {
