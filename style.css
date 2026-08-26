@@ -121,13 +121,14 @@ textarea {
 
 .about-section,
 .experience-section,
+.project-section,
 .contact-section {
   background: var(--paper);
 }
 
 .education-section,
 .skill-section {
-  background: #eaf0eb;
+  background: #6a60ff;
 }
 
 .about-section p,
@@ -167,7 +168,7 @@ hr {
 }
 
 .skill-container .card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   box-shadow: 0 0.75rem 1.5rem rgba(23, 33, 43, 0.12) !important;
 }
 
@@ -834,6 +835,7 @@ body {
 .experience-section,
 .contact-section,
 .education-section,
+.project-section,
 .skill-section {
   background: var(--mist);
 }
@@ -847,6 +849,7 @@ body {
 .education-section .container,
 .experience-section .container,
 .skill-section .container,
+.project-section .container,
 .contact-section .container {
   max-width: 1030px;
 }
@@ -927,7 +930,7 @@ body {
 
 .skill-container .card {
   border-radius: 8px !important;
-  background: #f0f1f3;
+  background: #dae6ff;
 }
 
 .skill-container .card-title {
@@ -946,7 +949,7 @@ body {
 }
 
 .project-section .section-title {
-  color: #fff;
+  color: #030303;
 }
 
 .main_wrapper {
